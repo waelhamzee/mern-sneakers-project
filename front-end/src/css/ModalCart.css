@@ -1,0 +1,685 @@
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+.modal1 {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+.modal2 {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 11111; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+.modal3 {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 11111; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  overflow-x: hidden;
+}
+.kldfs {
+  display: grid;
+  grid-template-columns: auto 350px;
+  height: 100%;
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 940px;
+  height: fit-content;
+  position: relative;
+  top: 12%;
+  overflow: auto;
+}
+.modal-content1 {
+  background-color: #fefefe;
+  margin-right: auto;
+  margin-left: auto; /* 5% from the top, 15% from the bottom and centered */
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  /* Could be more or less, depending on screen size */
+}
+.modal-content2 {
+  background-color: #fefefe;
+  margin-right: auto;
+  margin-left: auto; /* 5% from the top, 15% from the bottom and centered */
+  height: 100%;
+  position: absolute;
+  width: 400px;
+  top: 0;
+  right: 0;
+  transition: all 0.3s linear;
+  /* Could be more or less, depending on screen size */
+}
+.modal-content3 {
+  background-color: #fefefe;
+  margin-right: auto;
+  margin-left: auto; /* 5% from the top, 15% from the bottom and centered */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  transition: all 0.3s linear;
+  /* Could be more or less, depending on screen size */
+}
+.modal-content4 {
+  background-color: #dddddd;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 81px;
+  right: 315px;
+  transition: all 0.3s linear;
+}
+.modal-content5 {
+  background-color: #dddddd;
+  margin-right: auto;
+  margin-left: auto;
+  width: max-content;
+  height: auto;
+  transition: all 0.3s linear;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+}
+@media screen and (max-width: 370px) {
+  .modal-content5 {
+    width: 260px;
+  }
+}
+/* The Close Button (x) */
+.close {
+  position: flex;
+  position: absolute;
+  right: 1%;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+  z-index: 11111;
+  font-weight: 100;
+}
+
+.close:hover,
+.close:focus {
+  cursor: pointer;
+}
+.lol {
+  transition: all 0.3s linear;
+  color: red;
+}
+.fsaaa {
+  width: 100%;
+  height: 100%;
+}
+
+/* Add Zoom Animation */
+.animate {
+  animation: demoAnimation 1s;
+  -webkit-animation: demoAnimation 1s;
+  position: absolute;
+}
+
+@keyframes demoAnimation {
+  from {
+    right: -400px;
+  }
+  to {
+    right: 0;
+  }
+}
+
+@-webkit-keyframes demoAnimation {
+  from {
+    right: -400px;
+  }
+  to {
+    right: 0;
+  }
+}
+.animate2 {
+  animation: demoAnimationn 1s;
+  -webkit-animation: demoAnimationn 1s;
+  position: absolute;
+}
+
+@keyframes demoAnimationn {
+  from {
+    right: 0;
+  }
+  to {
+    right: -400px;
+  }
+}
+
+@-webkit-keyframes demoAnimationn {
+  from {
+    right: 0;
+  }
+  to {
+    right: -400px;
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+.prod10 {
+  height: auto;
+}
+.prod10 img {
+  height: 460px;
+}
+.prod11 {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  display: grid;
+  height: auto;
+  padding: 50px;
+  justify-content: space-between;
+}
+.prod50 {
+  width: auto;
+  height: auto;
+}
+.prod50 h1 {
+  font-family: "Spinnaker", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+}
+.trpp {
+  background-color: rgb(255, 174, 54);
+  border: rgb(255, 174, 54);
+  margin-bottom: 5px;
+  height: 45px;
+  margin-top: 50px;
+  border-radius: 0;
+  font-size: 15px;
+  letter-spacing: normal;
+}
+.smokey {
+  font-size: 18px;
+  text-decoration: underline;
+}
+.fjl {
+  margin-top: 8px;
+  position: relative;
+  top: 2%;
+  right: 4%;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  transition: all 0.66s linear;
+}
+.gallery button {
+  width: 11px;
+  height: 11px;
+  border-radius: 100%;
+  margin-left: 8px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.gallery button:hover {
+  background-color: black;
+}
+.idk {
+  background-color: black;
+}
+.lessssgsa {
+  height: 120px;
+  width: 100%;
+  background-color: black;
+}
+.lessssgsa h1 {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+.KLGd {
+  height: 300px;
+  overflow-y: scroll;
+}
+.fagsg {
+  height: auto;
+  position: fixed;
+  z-index: 150;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+.FDSFD {
+  height: auto;
+  padding: 40px;
+}
+.FJSH {
+  display: grid;
+  margin-bottom: 30px;
+  grid-template-columns: 90px auto 10px;
+}
+.HJFDSKJ {
+  height: 100%;
+  width: 90px;
+}
+.HJFDSKJ img {
+  height: 90px;
+  width: 90px;
+}
+.side-img {
+  margin-left: 10px;
+}
+.sbv {
+  font-size: 15px;
+}
+.sbv1 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.HJFDSHJ {
+  width: 70px;
+  margin-top: 6px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  border: 1px solid black;
+}
+.HJFDSHJ button {
+  width: 1rem;
+  height: 0.5rem;
+  font-size: 0.55rem;
+}
+.HJFDSHJ h2 {
+  font-size: 15px;
+}
+.another-btn {
+  width: 1.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.another-btn svg {
+  fill: rgb(77, 76, 76);
+}
+.another-btn:hover svg {
+  fill: black;
+}
+.amount56 {
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1;
+  width: fit-content;
+  color: rgb(78, 78, 78);
+  margin-bottom: 0;
+  padding: 7px;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.KLGd::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.KLGd {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.lgfo {
+  font-size: 35px;
+}
+.pr-yo {
+  font-size: 35px;
+}
+.dfdfsdsf {
+  border: 0.2px solid rgb(240, 233, 233);
+  width: 400px;
+  margin-top: 15px;
+}
+.cont3 {
+  display: flex;
+  width: 400px;
+  height: 80px;
+}
+.btn3 {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 174, 54, 1);
+  transition: 400ms linear;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Spinnaker", sans-serif;
+  text-transform: none;
+  font-size: 20px;
+  margin-top: 20px;
+  border-color: rgba(255, 174, 54, 1);
+}
+.btn3:hover {
+  background-color: rgb(250, 189, 99);
+}
+.lessssgsa {
+  display: flex;
+  align-items: center;
+}
+.yoyoy {
+  border: transparent;
+  color: white;
+  background-color: black;
+  font-size: 35px;
+  text-align: center;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.LKK_ {
+  border-radius: 50%;
+  text-align: center;
+  height: 20px;
+  border: blanchedalmond;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.LKK_ svg {
+  margin-top: 1.5px;
+}
+.FJSH:hover .LKK_ {
+  opacity: 1;
+}
+.animate5 {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.uu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.uunew {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  width: 320px;
+}
+.U2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.JWW_ h1 {
+  font-family: "arial black", arial-w01-black, arial-w02-black,
+    "arial-w10-black", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.already {
+  text-align: center;
+  font-size: 19px;
+  margin-top: 15px;
+}
+.but {
+  color: red;
+  background-color: transparent;
+  border: transparent;
+  text-transform: capitalize;
+  font-size: 20px;
+  cursor: pointer;
+}
+.but:hover {
+  text-decoration: underline;
+}
+.thewael {
+  margin-top: 20px;
+}
+.thewael2 {
+  display: block;
+  margin-bottom: 30px;
+}
+.thewael2 label {
+  text-align: left;
+}
+.thewael2 input {
+  width: 100%;
+  border-top-width: 0ch;
+  border-right-width: 0ch;
+  border-left-width: 0ch;
+  font-size: 15px;
+  padding: 10px;
+}
+@media screen and (max-width: 320px) {
+  .uunew {
+    width: 270px;
+  }
+  .eyo {
+    width: 270px;
+  }
+  .thawolf {
+    margin-left: 15px;
+  }
+}
+.btnn5 {
+  color: white;
+  width: 100%;
+  height: 50px;
+  transition: all 0.3s linear;
+  font-size: 18px;
+  background-color: rgb(255, 79, 79);
+  border-color: rgb(255, 79, 79);
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.btnn5:hover {
+  background-color: rgb(255, 122, 122);
+}
+.eyo {
+  height: 100%;
+  width: 320px;
+}
+.prod20 {
+  width: auto;
+  margin-bottom: 15px;
+  font-family: "spinnaker", sans-serif;
+}
+.thawolf {
+  text-decoration: underline;
+  color: rgb(5, 5, 73);
+  cursor: pointer;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: transparent;
+}
+.spanner {
+  position: relative;
+  left: 1420px;
+  top: 50px;
+  font-size: 50px;
+  cursor: pointer;
+}
+.check {
+  text-align: left;
+  color: red;
+  position: relative;
+  bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.idel {
+  padding: 10px;
+}
+.idel h2 {
+  text-align: center;
+  font-size: 15px;
+}
+.idel1 {
+  display: grid;
+  text-align: center;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+  width: 70px;
+  margin-left: 30px;
+}
+.fifel {
+  background-color: black;
+  border: black;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  text-transform: capitalize;
+  padding: 5px;
+}
+.fifel:hover {
+  background-color: rgb(48, 48, 48);
+}
+.yor {
+  height: 100%;
+}
+.alld {
+  position: relative;
+  top: 2%;
+  right: 2%;
+  margin-top: 8px;
+}
+@media screen and (max-width: 979px) {
+  .fsaaa {
+    width: auto;
+    height: 380px;
+    float: right;
+  }
+  .gallery {
+    width: auto;
+  }
+  .prod10 img {
+    height: 380px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .prod11 {
+    display: block;
+  }
+  .modal-content {
+    height: 600px;
+    overflow: scroll;
+    width: fit-content;
+  }
+  .prod10 {
+    display: flex;
+    height: auto;
+  }
+  .yor {
+    height: auto;
+  }
+  .prod10 img {
+    height: 100%;
+    width: 100%;
+  }
+  .fsaaa {
+    width: 100%;
+    height: 100%;
+  }
+  .gallery {
+    display: none;
+  }
+  .alld {
+    position: unset;
+  }
+  .trpp {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .modal-content2 {
+    width: 100%;
+  }
+  .cont3 {
+    width: 100%;
+  }
+  .LKK_ {
+    opacity: 1;
+  }
+  .FDSFD {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .FDSFD {
+    padding: 25px;
+  }
+  .FDSFD {
+    margin-left: 0;
+  }
+}

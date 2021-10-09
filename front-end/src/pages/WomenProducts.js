@@ -1,0 +1,47 @@
+import "../css/MenProducts.css";
+import Credits from "../Credits";
+import { useProductsContext } from "../context/products_context";
+import { detailshoes, shoes } from "../data";
+import { useEffect } from "react";
+import Filters from "../Filters";
+import ProductList from "../ProductList";
+import Sort from "../Sort";
+
+const WomenProducts = () => {
+  const { setProducts, setisWomen,setdetailProduct } = useProductsContext();
+  useEffect(() => {
+    setProducts(shoes.womenshoes);
+    setisWomen(true);
+    setdetailProduct(detailshoes.womenshoes)
+  });
+  return (
+    <div className="animated">
+      <div className="JPI">
+        <h3 style={{ right: "26%" }}>WOMEN SNEAKERS</h3>
+        <img
+          src={
+            "https://i.pinimg.com/236x/af/a9/33/afa933c9251745703e9bedaf27347197.jpg?nii=t"
+          }
+          alt="black"
+          className="jfi"
+        />
+      </div>
+      <div className="RR__">
+        <div className="first-grid">
+          <Filters />
+          <div className="containing">
+            <Sort />
+            <ProductList />
+          </div>
+        </div>
+      </div>
+      <div className="credits-image expl">
+        <div className="les">
+          <Credits />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default WomenProducts;

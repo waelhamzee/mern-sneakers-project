@@ -1,0 +1,486 @@
+.JPI {
+  position: relative;
+  height: auto;
+}
+
+.JPI h3 {
+  position: absolute;
+  z-index: 9;
+  margin: 0 auto;
+  left: 0;
+  right: 30%;
+  text-align: center;
+  top: 51%; /* Adjust this value to move the positioned div up and down */
+  font-weight: 400;
+  font-size: 47px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: line-through;
+  font-family: "Spinnaker", sans-serif;
+  font-weight: bolder;
+  font-family: "arial black", arial-w01-black, arial-w02-black,
+    "arial-w10-black", sans-serif;
+}
+.jfi {
+  width: 100%;
+  height: 250px;
+}
+@media screen and (max-width : 943px) {
+  .jfi {
+    height: 221px;
+  }
+  .JPI h3 {
+    top: 41%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .JPI {
+    position: relative;
+    height: auto;
+  }
+
+  .JPI h3 {
+    position: absolute;
+    z-index: 9;
+    margin: 0 auto;
+    text-align: unset;
+    left: 60px;
+    right: 3%;
+    top: 42%;
+    font-weight: 400;
+    font-size: 42px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    font-family: "Spinnaker", sans-serif;
+    font-weight: bolder;
+    font-family: "arial black", arial-w01-black, arial-w02-black,
+      "arial-w10-black", sans-serif;
+  }
+  .jfi {
+    width: 100%;
+    height: 220px;
+  }
+}
+
+.first-grid {
+  display: flex;
+  height: auto;
+}
+.RR__ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FF {
+  height: auto;
+  padding: 10px;
+  width: 240px;
+}
+.FF hr {
+  opacity: 0.4;
+}
+.kl {
+  font-size: 23px;
+  font-family: "Spinnaker", sans-serif;
+  padding: 30px;
+}
+.pb {
+  padding: 10px;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: left;
+  font-family: "Spinnaker", sans-serif;
+}
+.second-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  grid-template-rows: 3;
+}
+@media screen and (max-width: 1000px) {
+  .second-grid {
+    display: inline-block;
+  }
+  .fluf {
+    display: block;
+  }
+  .JPI h3 {
+    left: 16%;
+  }
+}
+.hola {
+  padding: 10px;
+}
+.cake {
+  text-align: left;
+  font-size: 17px;
+  padding: 10px;
+  padding-left: 0;
+  color: black;
+}
+.agrid {
+  display: grid;
+  grid-template-columns: 1fr 0.1fr;
+}
+.bla {
+  text-align: center;
+  font-size: 27px;
+  cursor: pointer;
+  background-color: white;
+  border: transparent;
+  margin-right: 20px;
+}
+.sgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 30px;
+}
+.qq {
+  font-size: 15px;
+  color: rgb(41, 41, 41);
+  font-family: "Spinnaker", sans-serif;
+  text-align: left;
+}
+.oo {
+  font-size: 18px;
+  color: rgb(41, 41, 41);
+  font-family: "Spinnaker", sans-serif;
+  text-align: right;
+}
+.fss input {
+  width: 100%;
+}
+.jun {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.trans {
+  transition: all 0.3s ease;
+  max-height: 0;
+}
+.sub-menu-parent {
+  position: relative;
+}
+
+.sub-menu {
+  visibility: hidden; /* hides sub-menu */
+  opacity: 0;
+  top: 100%;
+  left: 0;
+  max-height: 0;
+  width: 100%;
+  z-index: -1;
+  transition: all 0.5s ease-in-out 0s, visibility 0s linear 0.3s,
+    z-index 0s linear 0.01s;
+}
+.mario {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s;
+  max-height: 50px;
+}
+.maxedheight {
+  max-height: 200px;
+}
+.marginTop {
+  margin-top: 15px;
+}
+.sfjdlL {
+  display: flex;
+}
+.color-btn {
+  display: inline-block;
+  width: 1.1rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background: #222;
+  margin-right: 0.5rem;
+  border: none;
+  cursor: pointer;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trip {
+  font-size: 0.75rem;
+  color: #fff;
+}
+.sfjdlL button {
+  display: inline-block;
+  margin: 0.25em 0;
+  padding: 0.25rem 0;
+  text-transform: capitalize;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid transparent;
+  letter-spacing: 0.1rem;
+  color: hsl(210, 22%, 49%);
+  cursor: pointer;
+  margin-left: 5px;
+}
+.all-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+  opacity: 0.5;
+}
+.active {
+  opacity: 1;
+}
+.all-btn .active {
+  text-decoration: underline;
+}
+.cat-btn {
+  display: flex;
+  padding: 5px;
+  background-color: transparent;
+  border: transparent;
+  font-size: 13px;
+  text-align: center;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+.cat-btn:hover {
+  cursor: pointer;
+  background-color: rgb(153, 140, 140);
+  color: white;
+  transition: all 0.3s linear;
+}
+.eno {
+  background-color: rgb(153, 140, 140);
+  color: white;
+}
+.form-control {
+  margin-top: 0.5rem;
+  margin-left: 0.7rem;
+  margin-bottom: 1.25rem;
+}
+.form-control h5 {
+  margin-bottom: 0.5rem;
+}
+.shipping {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  text-transform: capitalize;
+  column-gap: 0.5rem;
+  font-size: 1rem;
+}
+.ali {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 2.5px;
+  background: black;
+  color: black;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  z-index: 2222;
+}
+._1A0B3 {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+._1LXRy {
+  height: 20px;
+  width: 20px;
+  opacity: 0.4;
+  cursor: pointer;
+}
+._1A0B3 {
+  align-items: center;
+}
+._1A0B3 label {
+  position: relative;
+  bottom: 5px;
+  left: 10px;
+}
+._1Cv08 {
+  font-size: 16px;
+}
+.expl {
+  height: 420px;
+}
+@media screen and (max-width: 958px) {
+  .expl {
+    height: auto;
+  }
+}
+.les {
+  position: relative;
+  top: 20%;
+}
+.ray {
+  font-size: 15px;
+  background-color: rgb(175, 18, 18);
+  color: white;
+  padding: 3px;
+  border: rgb(175, 18, 18);
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.INF {
+  margin-left: 12px;
+}
+.containing {
+  display: grid;
+  height: fit-content;
+}
+.sort {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  padding-left: 0;
+}
+.sort select {
+  padding: 10px;
+  padding-left: 15px;
+  font-size: 12px;
+  font-family: "Spinnaker", sans-serif;
+  cursor: pointer;
+}
+.sort p {
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 20px;
+}
+.sort10 {
+  display: none;
+}
+.sidebar1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--clr-white);
+  transition: all 0.3s linear;
+  transform: translate(100%);
+  z-index: -1;
+}
+.show-sidebar1 {
+  transform: translate(0);
+  z-index: 99999;
+  overflow: auto;
+}
+.rom {
+  height: 100%;
+}
+.rom1 {
+  padding: 40px;
+}
+.rom3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+.rom3 p {
+  font-size: 22px;
+}
+.rom3 button {
+  font-size: 20px;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+.ye {
+  padding: 12px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.rom4 {
+  display: flex;
+  justify-content: space-between;
+}
+.rom4 p {
+  font-size: 16px;
+}
+.rom4 button {
+  font-size: 16px;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+.rom4 label {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.rom5 {
+  text-align: center;
+}
+.rom5 button {
+  font-size: 16px;
+  transition: all 0.3s linear;
+  text-transform: capitalize;
+  padding: 20px;
+  background-color: white;
+  width: 160px;
+  cursor: pointer;
+}
+@media screen and (min-width: 618px) {
+  .sidebar1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 617px) {
+  .FF {
+    display: none;
+  }
+  .sort {
+    display: none;
+  }
+  .sort10 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    grid-gap: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .TTW {
+    background-color: transparent;
+    cursor: pointer;
+    width: auto;
+    height: 50px;
+    transition: all 0.3s linear;
+  }
+  .TTW:hover {
+    background-color: black;
+    color: white;
+  }
+  .TTW1 {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    height: 50px;
+    transition: all 0.3s linear;
+    width: auto;
+  }
+  .TTW1:hover {
+    background-color: black;
+    color: white;
+  }
+  .RR__ {
+    padding: 120px;
+    padding-top: 0px;
+  }
+  .ford {
+    margin-left: 10px;
+  }
+}
+.remast {
+  width: 100%;
+  height: 100%;
+  border: transparent;
+  font-family: "Spinnaker", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.05rem;
+  color: rgb(65, 65, 65);
+  padding: 10px;
+}

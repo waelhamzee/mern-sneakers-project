@@ -1,0 +1,164 @@
+.ffd {
+  position: relative;
+}
+.ffff {
+  height: 351px;
+  width: 351px;
+  display: block;
+}
+.ffff2 {
+  height: 420px;
+  width: 420px;
+  display: none;
+}
+
+.fluf {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 79, 79);
+  transition: 200ms linear;
+  width: 100%;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  font-family: "Spinnaker", sans-serif;
+  text-transform: none;
+  letter-spacing: 0.1rem;
+  font-size: 15px;
+  margin-top: 10px;
+  border-color: red;
+  opacity: 0;
+  letter-spacing: normal;
+}
+
+.fluf:hover {
+  background-color: rgb(255, 128, 128);
+}
+.ssd:hover .fluf {
+  opacity: 1;
+}
+.hi_ {
+  width: 100%;
+  display: flex;
+}
+.SUI {
+  position: absolute;
+  top: 0;
+  box-sizing: content-box;
+  min-width: 20%;
+  max-width: 80%;
+  padding: 5px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: subpixel-antialiased;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  --gallery_ribbonBackground: #ff4f4f;
+  --gallery_ribbonTextColor: #ffffff;
+  --gallery_ribbonTextFont: normal normal normal 16px/1.4em spinnaker,
+    sans-serif;
+  font: normal normal normal 16px/1.4em spinnaker, sans-serif;
+  color: #ffffff;
+  background-color: #ff4f4f;
+  left: 0;
+}
+.ll {
+  font-family: "Spinnaker", sans-serif;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 5px;
+  color: black;
+  font-weight: 500;
+  letter-spacing: normal;
+}
+
+.por {
+  margin-left: 5px;
+  font-size: 14px;
+  color: rgb(133, 131, 131);
+  font-family: "Spinnaker", sans-serif;
+}
+.kjl {
+  background-color: white;
+  margin-top: 35px;
+  text-align: center;
+  height: 78px;
+  border-radius: 4px;
+  transition: all 0.3s linear;
+  opacity: 0;
+}
+.kjl p {
+  position: relative;
+  top: 30%;
+  font-family: "Spinnaker", sans-serif;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+.ssd {
+  margin-bottom: 20px;
+}
+.ssd:hover .kjl {
+  opacity: 1;
+}
+.mobile {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .fluf {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 500px) {
+  .fluf {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+@media screen and (max-width: 375px) {
+  .ffff {
+    height: 260px;
+    width: 260px;
+  }
+  .JPI h3 {
+    left: 12%;
+    font-size: 39px;
+  }
+}
+@media screen and (max-width:310px) {
+  .JPI h3 {
+    left: 5%;
+  }
+}
+.confirm-container {
+  width: auto;
+}
+.confirm-container p {
+  padding: 30px;
+  font-size: 15px;
+}
+.cd-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+.cd-buttons li {
+  width: 100%;
+}
+.cd-buttons button {
+  border: transparent;
+  width: fit-content;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  height: 50px;
+  transition: all 0.3 linear;
+  cursor: pointer;
+}

@@ -1,0 +1,334 @@
+body {
+  background-color: white;
+}
+.prod1 {
+  width: fit-content;
+}
+.prod {
+  height: auto;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prod2 {
+  width: fit-content;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-family: "spinnaker", sans-serif;
+}
+
+.prod3 {
+  grid-template-columns: auto auto;
+  display: grid;
+  grid-gap: 50px;
+  height: auto;
+  padding-top: 0px;
+  justify-content: space-between;
+}
+
+.prod4 {
+  height: auto;
+}
+.prod4 img {
+  height: 100%;
+  width: 100%;
+}
+.whorea {
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 500px;
+}
+.whorea p {
+  color: black;
+  font-size: 17px;
+  font-family: "Spinnaker", sans-serif;
+}
+.prod5 {
+  width: auto;
+}
+.prod5 h1 {
+  font-family: "Spinnaker", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 2px;
+}
+.lozi {
+  font-size: 14px;
+}
+.lozi2 {
+  font: normal normal bold 18px/1.4em spinnaker, sans-serif;
+  font-size: 17px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.spanme {
+  margin-top: 10px;
+  font-size: 15px;
+}
+.jkll {
+  padding: 10px;
+  font-size: 18px;
+  width: 100%;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.jkll option {
+  cursor: pointer;
+}
+.jkll option:hover {
+  background-color: rgb(199, 199, 199);
+}
+.amount-btn {
+  width: 1.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.amount-btn svg {
+  fill: black;
+}
+.amount-btn:hover svg {
+  fill: hsl(205, 84%, 74%);
+}
+.amount {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  line-height: 1;
+  width: fit-content;
+  position: relative;
+  bottom: 5px;
+  margin-top: 10px;
+}
+.flufy {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 79, 79);
+  transition: 200ms linear;
+  width: 100%;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  font-family: "Spinnaker", sans-serif;
+  text-transform: none;
+  height: 43px;
+  font-size: 15px;
+  margin-top: 20px;
+  border-color: red;
+  opacity: 1;
+}
+.flufy:hover {
+  background-color: rgb(255, 128, 128);
+}
+.flufy2 {
+  height: 43px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  transition: 200ms linear;
+  width: 100%;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  font-family: "Spinnaker", sans-serif;
+  text-transform: none;
+  font-size: 15px;
+  margin-top: 20px;
+  border-color: black;
+  opacity: 1;
+  border-color: transparent;
+}
+.flufy2:hover {
+  background-color: rgba(54, 54, 54, 0.986);
+}
+.holaa {
+  width: 390px;
+  margin-top: 50px;
+}
+.agridd {
+  display: flex;
+  justify-content: space-between;
+}
+.blaa {
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  border: transparent;
+}
+.cakes {
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+  font-family: "Spinnaker", sans-serif;
+}
+.junn p {
+  font-family: "Spinnaker", sans-serif;
+  line-height: 1.5;
+  word-spacing: 0.25rem;
+  color: rgb(0, 0, 0);
+}
+.junn p {
+  -webkit-transition: height 0.3s ease-in;
+  -moz-transition: height 0.3s ease-in;
+  -o-transition: height 0.3s ease-in;
+  -ms-transition: height 0.3s ease-in;
+  transition: height 0.3s ease-in;
+  margin-top: 20px;
+}
+.credits-image {
+  background-image: url("https://i.pinimg.com/236x/af/a9/33/afa933c9251745703e9bedaf27347197.jpg?nii=t");
+}
+.les {
+  position: relative;
+  top: 20%;
+}
+.inner {
+  display: flex;
+}
+.inner_ {
+  display: flex;
+}
+.trex {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black;
+}
+.them {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.amount-btns {
+  width: 84px;
+  margin-top: 6px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+.amount-btns button {
+  width: 1rem;
+  height: 0.5rem;
+  font-size: 0.85rem;
+}
+.amount-btns h2 {
+  font-size: 25px;
+}
+
+.waelhamze {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+.kingo {
+  text-transform: capitalize;
+  color: rgb(146, 16, 16);
+  transition: all 0.3s linear;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.wesee {
+  font-size: 20px;
+  margin-top: 11px;
+  margin-left: 5px;
+  transition: all 0.3s linear;
+  color: rgb(146, 16, 16);
+}
+.overy {
+  display: none;
+}
+@media screen and (max-width: 998px) {
+  .fsaa {
+    width: 400px;
+    height: 400px;
+  }
+  .whorea {
+    width: auto;
+  }
+}
+@media screen and (max-width: 998px) {
+  .prod5 {
+    width: 300px;
+  }
+  .agridd {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .agridd {
+    width: auto;
+  }
+  .prod5 {
+    width: auto;
+    margin-top: 30px;
+  }
+  .prod3 {
+    display: inline-block;
+  }
+  .whorea {
+    display: none;
+  }
+  .overy {
+    display: block;
+    margin-top: 20px;
+  }
+  .amount-btns {
+    width: 80px;
+  }
+  .amount-btns h2 {
+    font-size: 25px;
+  }
+  .spanme {
+    font-size: 15px;
+  }
+}
+.lock {
+  position: absolute;
+  color: white;
+  top: 13px;
+  right: 140px;
+}
+@media screen and (max-width: 480px) {
+  .prod3 {
+    width: 300px;
+  }
+  .fsaa {
+    width: 300px;
+    height: 300px;
+  }
+  .holaa {
+    width: 300px;
+  }
+  .lock {
+    top: 14px;
+    right: 99px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .prod3 {
+    width: 260px;
+  }
+  .fsaa {
+    width: 260px;
+    height: 260px;
+  }
+  .holaa {
+    width: 260px;
+  }
+  .lock {
+    right: 80px;
+  }
+  .inner {
+    display: unset;
+  }
+}

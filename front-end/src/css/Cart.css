@@ -1,0 +1,250 @@
+.cart {
+  height: auto;
+}
+.cart-margin {
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.cart-container {
+  width: 100%;
+  padding: 50px;
+  padding-left: 0;
+  padding-right: 0;
+  display: grid;
+  grid-template-columns: 600px auto;
+  grid-gap: 35px;
+}
+.FSLL {
+  display: grid;
+  grid-template-columns: auto auto 1.5fr 0.8fr 0.5fr;
+}
+
+.__FFF img {
+  width: 110px;
+  border: 1px solid rgb(167, 167, 167);
+  height: 110px;
+}
+.FDSS_ {
+  display: inline-block;
+  margin-left: 30px;
+}
+._FF_ {
+  color: rgb(126, 126, 126);
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.__GG {
+  float: right;
+}
+._YOY {
+  font-size: 17px;
+}
+.exbtn {
+  border: transparent;
+  background-color: transparent;
+  font-size: 15px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.exbtn svg {
+  fill: rgb(134, 133, 133);
+}
+.__TTR {
+  width: 90px;
+  margin-top: 2px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+.__TTR button {
+  width: 1rem;
+  height: 0.5rem;
+  font-size: 0.55rem;
+}
+.__TTR h2 {
+  font-size: 15px;
+}
+.another-btn9 {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.another-btn9 svg {
+  fill: rgb(0, 0, 0);
+  font-weight: 400;
+}
+.amount561 {
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1;
+  width: fit-content;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.daug {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-family: "arial black", arial-w01-black, arial-w02-black,
+    "arial-w10-black", sans-serif;
+  font-weight: bolder;
+}
+.line {
+  margin-top: 30px;
+  margin-bottom: 35px;
+  border: 0.5px solid rgb(236, 236, 236);
+}
+.__YUYU {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin-bottom: 13px;
+}
+.line2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 0.5px solid rgb(236, 236, 236);
+}
+.butn {
+  text-align: center;
+  width: 100%;
+  margin-top: 25px;
+}
+.butn button {
+  color: white;
+  width: 100%;
+  padding: 10px;
+  transition: all 0.3s linear;
+  font-size: 15px;
+  background-color: rgb(255, 79, 79);
+  border-color: rgb(255, 79, 79);
+  cursor: pointer;
+}
+.butn button:hover {
+  background-color: rgb(255, 122, 122);
+}
+.trapped {
+  margin-top: 12%;
+}
+.trapped h1 {
+  font-size: 40px;
+}
+.trapped button {
+  width: 200px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(255, 79, 79);
+  border: rgb(255, 79, 79);
+  transition: all 0.3s linear;
+  cursor: pointer;
+  color: white;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+.trapped button:hover {
+  background-color: rgb(247, 144, 144);
+}
+.error-back {
+  width: 150px;
+  font-size: 15px;
+  padding: 6px;
+  background-color: rgb(255, 79, 79);
+  border: rgb(255, 79, 79);
+  transition: all 0.3s linear;
+  cursor: pointer;
+  color: white;
+}
+.error-back:hover {
+  background-color: rgb(247, 144, 144);
+}
+.waelbtn {
+  width: 100%;
+  height: 25px;
+}
+.waelbtn button {
+  float: right;
+  color: white;
+  background: black;
+  transition: all 0.3s linear;
+  text-transform: capitalize;
+  width: 80px;
+  height: 25px;
+  cursor: pointer;
+}
+.waelbtn button:hover {
+  background-color: rgb(88, 88, 88);
+}
+.sim {
+  width: auto;
+  margin-top: 20px;
+  display: none;
+}
+.sim button {
+  width: -webkit-fill-available;
+  height: 30px;
+  font-size: 15px;
+  text-transform: capitalize;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  border: 1px solid black;
+}
+.sim button:hover {
+  background-color: black;
+  color: white;
+}
+.orderSummary {
+  width: 250px;
+}
+@media screen and (max-width: 1000px) {
+  .cart-container {
+    display: inline-block;
+  }
+  .__FFTT {
+    width: 100px;
+  }
+  .orderSummary {
+    width: auto;
+  }
+}
+@media screen and (max-width: 619px) {
+  .__TTR {
+    width: 60px;
+  }
+  .FDSS_ {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .FSLL {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .taks {
+    display: none;
+  }
+  .__FFTT {
+    display: flex;
+    float: left;
+    margin-left: 10px;
+  }
+  .sim {
+    display: block;
+  }
+  .__OII {
+    width: auto;
+  }
+  .__TTR {
+    width: -webkit-fill-available;
+  }
+  .__GG {
+    float: unset;
+  }
+  .waelbtn {
+    margin-bottom: 30px;
+  }
+}
